@@ -44,8 +44,10 @@ run.sh
 
 ```
 cd auto
-mvn test -Dauto-sidebar
+mvn  compile
 ```
+
+自动整理文件列表而，需jdk与mvn的支持，未来可以更自动化。
 
 对于文件本身的分类等深度的应用，后续文档支持。
 
